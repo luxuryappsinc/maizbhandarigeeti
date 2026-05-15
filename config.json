@@ -1,0 +1,10 @@
+{
+  "latest_version": "13",
+  "update_compulsory": true,
+  "message": "welcome",
+  "announcement_dialog": true,
+  "announcement_date": "dd/mm/yyyy",
+  "announcement_message": "hello",
+  "announcement_image": "ss.png",
+  "whatsapp_group_link": "link"
+}
