@@ -1,9 +1,9 @@
 {
-  "latest_version": "13",
+  "latest_version": 13,
   "update_compulsory": false,
   "message": "আপনাদের কাঙ্খিত 'মাইজভাণ্ডারী গীতি' -এর সকল প্রকার শাব্দিক ভুল-ত্রুটি সংশোধনের কাজ চলছে এবং অতি শীঘ্রই এ্যান্ড্রয়েড ভার্সনের পাশাপাশি IOS অর্থাৎ আইফোনের ভার্সন ব্যবহারের সুযোগ পাবেন। যার কাজ চলমান। মাইজভাণ্ডারী গীতি পড়ুন, শুনুন, চর্চা করুন এবং মাইজভাণ্ডারী গীতি প্রচার করুন।",
   "announcement_dialog": true,
-  "announcement_date": "1778843140009",
+  "announcement_date": 1778843140009,
   "announcement_message": "মহান ২৩শে চৈত্র, ৬ই এপ্রিল মাইজভাণ্ডারী গীতি'র অন্যতম রচয়িতা, একুশে পদকপ্রাপ্ত ও খলিফায়ে মাইজভাণ্ডারী ফকির রমেশ শীল মাইজভাণ্ডারী'র পবিত্র ওরশ শরিফ।",
   "announcement_image": "https://maizbhandarigeeti.pages.dev/ann_img/romesh_shil_maijbhandari.png",
   "whatsapp_group_link": "https://chat.whatsapp.com/KuOsIiWPkVqCGzhT3uvgTu?mode=hqrt1"
