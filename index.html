@@ -245,6 +245,107 @@ font-size:42px;
 
 }
 
+.menu{
+display:flex;
+gap:30px;
+}
+
+.menu a{
+color:white;
+text-decoration:none;
+font-weight:500;
+transition:.3s;
+}
+
+.menu a:hover{
+color:#818cf8;
+}
+
+.section{
+padding:100px 0;
+}
+
+.section-box{
+
+background:rgba(255,255,255,.06);
+
+backdrop-filter:blur(20px);
+
+padding:50px;
+
+border-radius:30px;
+
+border:1px solid rgba(255,255,255,.08);
+
+}
+
+.section h2{
+font-size:40px;
+margin-bottom:30px;
+}
+
+.section p{
+color:#d1d5db;
+line-height:2;
+}
+
+.gallery-grid{
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:25px;
+margin-top:40px;
+}
+
+.gallery-grid img{
+width:100%;
+border-radius:25px;
+transition:.4s;
+}
+
+.gallery-grid img:hover{
+transform:scale(1.04);
+}
+
+.contact-grid{
+
+display:grid;
+
+grid-template-columns:1fr 1fr;
+
+gap:30px;
+
+margin-top:30px;
+
+}
+
+.contact-card{
+padding:30px;
+border-radius:25px;
+background:rgba(255,255,255,.05);
+}
+
+.contact-card h3{
+margin-bottom:15px;
+}
+
+.contact-card p{
+line-height:1.8;
+}
+
+@media(max-width:900px){
+
+.menu{
+display:none;
+}
+
+.contact-grid{
+grid-template-columns:1fr;
+}
+
+}
+
 </style>
 </head>
 <body>
@@ -254,10 +355,16 @@ font-size:42px;
 <nav>
 
 <div class="logo">
+    <img src="https://maizbhandarigeeti.pages.dev/assets/profile.png">
+    <span>Maizbhandari Geeti</span>
+</div>
 
-<img src="https://maizbhandarigeeti.pages.dev/assets/profile.png">
+<div class="menu">
 
-<span>Maizbhandari Geeti</span>
+<a href="#about">About</a>
+<a href="#gallery">Gallery</a>
+<a href="#privacy">Privacy Policy</a>
+<a href="#contact">Contact</a>
 
 </div>
 
@@ -382,20 +489,140 @@ Read and explore your favorite spiritual songs anytime.
 </section>
 
 
-<section class="screens">
+<section id="about" class="section">
 
 <div class="container">
 
-<h2 class="title">
-App Screenshots
-</h2>
+<div class="section-box">
 
-<div class="shots">
+<h2>About The App</h2>
+
+<p>
+
+Maizbhandari Geeti is designed to bring Maizbhandari spiritual songs, poems, and lyrics together in one place. Users can browse a large collection of songs with an easy-to-use interface and enjoy traditional spiritual content anytime.
+
+The goal is to preserve and make Maizbhandari Geeti more accessible for everyone.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="gallery" class="section">
+
+<div class="container">
+
+<div class="section-box">
+
+<h2>Gallery</h2>
+
+<p>
+Explore some previews from the app.
+</p>
+
+<div class="gallery-grid">
 
 <img src="screen1.jpg">
 <img src="screen2.jpg">
 <img src="screen3.jpg">
 <img src="screen4.jpg">
+<img src="screen5.jpg">
+<img src="screen6.jpg">
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="privacy" class="section">
+
+<div class="container">
+
+<div class="section-box">
+
+<h2>Privacy Policy</h2>
+
+<p>
+
+Your privacy matters to us. Maizbhandari Geeti does not collect personal information without permission.
+
+The app may use trusted third-party services such as analytics or advertising providers to improve user experience.
+
+We do not sell user information. By using the app, you agree to the collection and use of information according to this policy.
+
+For questions regarding privacy concerns, contact us below.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+
+
+<section id="contact" class="section">
+
+<div class="container">
+
+<div class="section-box">
+
+<h2>Contact Us</h2>
+
+<div class="contact-grid">
+
+<div class="contact-card">
+
+<h3>Email</h3>
+
+<p>
+support@yourdomain.com
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Developer</h3>
+
+<p>
+Luxury Apps
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Website</h3>
+
+<p>
+www.yourwebsite.com
+</p>
+
+</div>
+
+<div class="contact-card">
+
+<h3>Address</h3>
+
+<p>
+Bangladesh
+</p>
+
+</div>
+
+</div>
 
 </div>
 
