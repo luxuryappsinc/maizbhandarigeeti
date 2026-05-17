@@ -378,6 +378,7 @@ grid-template-columns:1fr;
 
 .contact-grid{
 grid-template-columns:1fr;
+gap:20px;
 }
 
 .contact-card{
@@ -504,21 +505,19 @@ transform:scale(1.04);
 }
 
 .contact-grid{
-
 display:grid;
-
-grid-template-columns:1fr 1fr;
-
+grid-template-columns:repeat(2,1fr);
 gap:30px;
-
 margin-top:30px;
-
 }
 
 .contact-card{
 padding:30px;
 border-radius:25px;
 background:rgba(255,255,255,.05);
+
+width:100%;
+overflow:hidden;
 }
 
 .contact-card h3{
@@ -527,6 +526,11 @@ margin-bottom:15px;
 
 .contact-card p{
 line-height:1.8;
+
+/* FIX LONG TEXT */
+word-wrap:break-word;
+overflow-wrap:anywhere;
+word-break:break-word;
 }
 
 </style>
@@ -790,7 +794,10 @@ Luxury Apps
 <h3>Website</h3>
 
 <p>
-www.maizbhandarigeeti.pages.dev
+<a href="https://maizbhandarigeeti.pages.dev"
+style="color:#a5b4fc;text-decoration:none;">
+maizbhandarigeeti.pages.dev
+</a>
 </p>
 
 </div>
